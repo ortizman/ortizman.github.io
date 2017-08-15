@@ -7,7 +7,7 @@
   function PurposeRoutes($routeProvider, $locationProvider, $q){
     $routeProvider
       .when('/purpose', {
-        templateUrl: '/src/pages/purpose/view/content.html',
+        templateUrl: 'src/pages/purpose/view/content.html',
         controller: 'SearchController'
       });
   }
